@@ -36,7 +36,7 @@ function Library:CreateWindow(title, color)
     local WinTypes = {}
     local WindowDragging, SliderDragging, ColorPickerDragging = false, false, false
     local oldcolor = nil
-    local keybind = "RightControl"
+    local keybind = "Delete"
     local cancbind = false
 
     -- Window Instances
